@@ -87,7 +87,7 @@ def create_app():
 
         #If the course code is not present in the dataset, progressively remove the last character until we get a match.
         #For example, if there is no CSC413 then we find the first match that is CSC41.
-        #If there are no matches for any character, just go home.
+        #If there are no matches for any character, just go home. yea
         if code not in df.index:
             while True:
                 code = code[:-1]
